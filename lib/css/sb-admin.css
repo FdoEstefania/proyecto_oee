@@ -6,13 +6,26 @@
 
 /* Global Styles */
 
-body {
-    margin-top: 100px;
-    font-size: 20px;
-    font-size: 16px;
+html,body {
+  width:100%;
+	height:100%;
+	background:#111;
+  font-size: 16px;
 }
 .bdIni{
-    background-image: url(../images/fondo-login.png); 
+    background-image: url(../images/fondo-login.png);
+}
+.container-fluid{
+  margin-top: 50px;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .navbar-brand {
@@ -33,7 +46,7 @@ body {
 
 @media(min-width:768px) {
     body {
-        margin-top: 50px;
+
     }
 }
 
@@ -304,7 +317,7 @@ td{
     color: aliceblue;
 }
 .txtIni{
-    color:#003853; 
+    color:#003853;
 }
 .btnHome{
     background-color:#003853;

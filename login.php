@@ -10,6 +10,7 @@
         <meta name="author" content="">
         <title>- Login Oee -</title>
         <script src="lib/js/jquery.min.js"></script>
+
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="lib/css/bootstrap.min.css">
         <!-- Custom CSS -->
@@ -29,15 +30,14 @@
         </style>
     </head>
 
-    <body class="bdIni">
-        <?php
-        include_once "controles/cuentaControl.php"; 
-        ?>
-        <?php 
-        include 'inc/loginForm.php'; 
-        ?>
-        <!--            </div>-->
+    <body>
 
+        <?php
+          include_once "controles/cuentaControl.php";
+        ?>
+        <?php
+         include 'inc/loginForm.php';
+        ?>
         <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -66,7 +66,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+        <script src="lib/js/particles.min.js"></script>
+        <script src="lib/js/app.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="lib/js/bootstrap.min.js"></script>
 
